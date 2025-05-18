@@ -1,4 +1,2 @@
-src/index.js
-src/types.js
-src/tests/test.js
+dist/
 node_modules/

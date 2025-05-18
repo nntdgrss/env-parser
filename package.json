@@ -1,28 +1,45 @@
 {
   "name": "@nntdgrss/env-parser",
   "version": "1.0.0",
-  "description": "Easily retrieve values from your .env file without worrying about undefined values.",
-  "main": "src/index.js",
+  "description": "Easily retrieve values from your .env file without worrying about undefined values and parse them into specific types.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "npx tsc && node src/tests/test.js",
-    "start": "echo \"Hello World, this is env-parser!\""
+    "test": "node dist/tests/test.js",
+    "prepare": "npm run build"
   },
   "keywords": [
-    "env-parser",
-    "parser-env"
+    "env",
+    "environment variables",
+    "parser",
+    "config",
+    "typescript",
+    "dotenv",
+    "parse"
   ],
   "author": "Nntdgrss",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.15.18",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "dotenv": "^16.5.0"
+    "typescript": "^5.8.3",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nntdgrss/env-parser#readme"
+    "url": "git+https://github.com/nntdgrss/env-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nntdgrss/env-parser/issues"
+  },
+  "homepage": "https://github.com/nntdgrss/env-parser#readme",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }

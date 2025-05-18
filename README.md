@@ -1,6 +1,6 @@
 # 📦 env-parser
 
-[![npm version](https://badge.fury.io/js/env-parser.svg)](https://www.npmjs.com/package/env-parser)
+[![npm version](https://badge.fury.io/js/env-parser.svg)](https://www.npmjs.com/package/@nntdgrss/env-parser)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 Простая и надежная библиотека для парсинга переменных окружения в Node.js с поддержкой различных типов и значений по умолчанию. Помогает избежать ошибок `TypeError: Cannot read properties of undefined` при работе с `process.env`.
