@@ -1,5 +1,5 @@
 {
-  "name": "env-parser",
+  "name": "@nntdgrss/env-parser",
   "version": "1.0.0",
   "description": "Easily retrieve values from your .env file without worrying about undefined values.",
   "main": "src/index.js",
@@ -20,5 +20,9 @@
   },
   "dependencies": {
     "dotenv": "^16.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nntdgrss/env-parser#readme"
   }
 }
